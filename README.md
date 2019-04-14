@@ -48,15 +48,14 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
      */
 
     private int codigo;
-    
     private String nombre;
-    
     private String categorias;
-    
     private int numeroJugadores;
     
+  /**  
+   *metodos clase abuelo
+    */
     
-// metodos clase abuelo
     public void partidaInicio(){
         System.out.println(""+this.nombre);
     }
@@ -73,3 +72,202 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     public String toString() {
         return "n\t\tJuego" + "\nCodigo: " + codigo + "\nNombre: " + nombre + "\nCategorias: " + categorias + "\nNumero De Jugadores: " + numeroJugadores + '"';
     }
+    
+    - Atributos, metodos y toString de la clase JuegosDeAzar
+    
+     /**
+     * atributos de la clase JuegosDeAzar
+     */
+    
+    private int numeroMesa;
+    private boolean fisico;
+    private String nombreDealer;
+    private String nombreJuego;
+    
+    /**
+     * metodos de la clase padre 
+     */
+    
+    public void cambioMesa(){
+    }
+    
+    public void cambiomodoJuego(){ 
+    }
+    
+    public void cambionombreDealer(){
+        
+    }
+    
+    /**
+     * generacion de toString de la clase JuegosDeAzar 
+     */
+    @Override
+    public String toString() {
+       return super.toString() + "\n\t\tJuegos De Azar" + "\nNumero de Mesa: " + numeroMesa + "\nFisico: " + fisico + "\nNombre del Dealer: " + nombreDealer + "\nNombre de Juego: " + nombreJuego + '"';
+    }
+    
+    - Atributos, metodos y toString de la clase JuegosDigital
+    
+     /**
+     * atributos de la clase JuegosDigitales
+     */
+    
+    private boolean modoOnline;
+    private boolean digital;
+    private String plataforma;
+    private String graficos;
+
+/**
+     * metodos de la clase padre 
+     */
+    
+    
+    public void cambioPlataforma() {
+    }
+
+    public void cambiomodoOnline() {
+    }
+    
+    /**
+     * generacion de toString de la clase JuegosDigital
+     */
+    
+    @Override
+    public String toString() {
+        return super.toString() + "\n\t\tJuegos Digitales" + "\nOnline: " + modoOnline + "\nDigital: " + digital + "\nPlataforma: " + plataforma + "\nGraficos: " + graficos + '"';
+    }
+
+    
+    - Atributos, metodos y toString de la clase Aventura
+    
+    /**
+     * atributos de la clase Aventura
+     */
+    
+    private String misiones;
+    private String objetivos;
+    private String logro;
+    private String mapa;
+    
+    /**
+     * metodos de la clase aventura 
+     */
+
+    public void guardarMisiones(){
+    }
+    
+    public void guardarMapa(){
+    }
+    
+    public void guardarLogros(){
+    }
+    
+    /**
+     * generacion de toString de la clase Aventura
+     */
+    
+    @Override
+    public String toString() {
+        return super.toString() + "\nAventura" + "\nmisiones: " + misiones + "\nobjetivos: " + objetivos + "\nlogro: " + logro + "\nmapa: " + mapa + '"';
+    }
+    
+    - Atributos, metodos y toString de la clase Deporte
+    
+    /**
+     * atributos de la clase Deporte
+     */
+    
+    private String nombreEquipo;
+    private String tiempo;
+    private boolean cambioJugador;
+    private boolean cambioTactica;
+    
+    /**
+     * metodos de la clase aventura 
+     */
+    
+    public void cambiarnombreEquipo(){
+    }
+    
+    public void modificarTiempo(){
+    }
+    
+    public void modificarTactica(){
+    }
+    
+    /**
+     * generacion de toString de la clase Deporte
+     */
+    
+    @Override
+    public String toString() {
+        return super.toString() + "\n\t\tDeporte\n" + "\nNombre De Equipo: " + nombreEquipo + "\nTiempo De Juego: " + tiempo + "\nCambio De Jugador: " + cambioJugador + "\nCambio De Tactica: " + cambioTactica + '"';
+    }
+    
+    - Atributos, metodos y toString de la clase Bingo
+    
+    /**
+     * atributos de la clase Bingo
+     */
+    
+    private int numeroTabla;
+    private int numeroBolas;
+    private String tipoPremio;
+    private boolean comprobarTabla;
+    
+    /**
+     * metodos de la clase bingo 
+     */
+
+    public void cambiarTabla(){
+    }
+    
+    public void cambiartipoPremio(){
+    }
+    
+    public void modificarnumeroBolas(){
+    }
+    
+    /**
+     * generacion de toString de la clase Bigo
+     */
+    
+    @Override
+    public String toString() {
+        return super.toString() + "\n\t\tBingo" + "\nnumeroTabla: " + numeroTabla + "\nnumeroBolas: " + numeroBolas + "\ntipoPremio: " + tipoPremio + "\ncomprobarTabla: " + comprobarTabla + '"';
+    }
+    
+    - Atributos, metodos y toString de la clase Poker
+    
+    /**
+     * atributos de la clase Poker
+     */
+
+    private int tipoFicha;
+    private int numeroPuesto;
+    private double apuesta;
+    private String mostrarJuegos;
+    
+    /**
+     * metodos de la clase poker 
+     */
+    
+    public void cambiartipoFicha(){
+    }
+    
+    public void modificarApuesta(){
+    }
+    
+    public void cambiarnumeroPuesto(){
+    }
+    
+    /**
+     * generacion de toString de la clase poker
+     */
+    
+    @Override
+    public String toString() {
+        return super.toString() + "\n\t\tPoker" + "\nTipo de Ficha: " + tipoFicha + "\nNumero de Puesto: " + numeroPuesto + "\nApuesta: " + apuesta + "\nMostrar Juegos: " + mostrarJuegos + '"';
+    }
+
+
