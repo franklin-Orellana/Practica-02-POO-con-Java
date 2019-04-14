@@ -54,7 +54,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     
   /**  
    *metodos clase abuelo
-    */
+   */
     
     public void partidaInicio(){
         System.out.println(""+this.nombre);
