@@ -1,6 +1,6 @@
 # Practica-02-POO-con-Java
-**Nombre: Franklin Orellana
+**Nombre: Franklin Orellana**
 
-**Practica N° 2 Enlaces de Clases
+**Practica N° 2 Enlaces de Clases**
 
-**Carrera: Computación
+**Carrera: Computación**
