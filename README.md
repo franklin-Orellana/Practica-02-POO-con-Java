@@ -278,17 +278,21 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
 
 -	Método abstracto de la clase padre JuegosDigitales
 
+
     /**
      * metodo abstracto de la clase padre
      */
+     
 
     public abstract void Multijugador();
 
 -	Método abstracto de la clase padre JurgosDeAzar
 
+
     /**
      * metodo abstracto de la clase padre
      */
+
 
     public abstract void Reglas ();
   
