@@ -53,9 +53,9 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     private int numeroJugadores;
     
     
-  /**  
-   * metodos clase abuelo
-   */
+      /**  
+      * metodos clase abuelo
+      */
    
     
     public void partidaInicio(){
