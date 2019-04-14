@@ -52,9 +52,11 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     private String categorias;
     private int numeroJugadores;
     
+    
   /**  
    * metodos clase abuelo
    */
+   
     
     public void partidaInicio(){
         System.out.println(""+this.nombre);
@@ -101,6 +103,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     /**
      * generacion de toString de la clase JuegosDeAzar 
      */
+     
     @Override
     public String toString() {
        return super.toString() + "\n\t\tJuegos De Azar" + "\nNumero de Mesa: " + numeroMesa + "\nFisico: " + fisico + "\nNombre del Dealer: " + nombreDealer + "\nNombre de Juego: " + nombreJuego + '"';
@@ -275,7 +278,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
 
 -	Método abstracto de la clase padre JuegosDigitales
 
-     /**
+    /**
      * metodo abstracto de la clase padre
      */
 
@@ -283,7 +286,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
 
 -	Método abstracto de la clase padre JurgosDeAzar
 
-     /**
+    /**
      * metodo abstracto de la clase padre
      */
 
@@ -295,7 +298,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
       ##- Clase Aventura
       
       
-      /**
+    /**
      * metodos abstracto implementadoaa la clase Aventura
      */
     
@@ -317,7 +320,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
       ##- Clase Deporte
       
       
-      /**
+    /**
      * metodos abstracto implementadoaa la clase Deporte
      */
     
@@ -339,7 +342,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
       ##- Clase Póker
       
       
-      /**
+    /**
      * metodos abstracto implementadoaa la clase Poker
      */
     
@@ -361,7 +364,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
       
       ##- Clase Bingo
       
-      /**
+    /**
      * metodos abstracto implementadoaa la clase Bingo
      */
     
