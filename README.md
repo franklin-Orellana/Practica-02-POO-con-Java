@@ -22,9 +22,38 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
 ## 3.	Crear un paquete para las clases, otro para las interfaces, otro para las pruebas
 
 - Se crearon los 3 paquetes:
+
       - clases
       
       - interfaces
       
       - prueba
       
+## 4. Crear una jerarquía de clases de tres niveles, es decir, una clase “abuelo”, dos clases “padres” y cuatro clases “hijas” (dos de cada padre).
+
+-	Para la clase abuelo se le designo el nombre: “ Juego ”
+
+-	Para las clases padres se les designo los nombres: “Juegos De Azar y Juegos Digitales”
+
+-	Para las clases hijas se les designo los nombres: ” Aventura, Deporte, Póker, Bingo”
+
+## 5.	Todas las clases deben tener por lo menos cuatros atributos (aparte de los de herencia), tres métodos (aparte de los getters y setters) y método toString().
+
+      - Atributos, metodos y toString de la clase Juego
+      
+      public class Juego {
+    
+    /**
+     * atributos de la clase Juegos
+     */
+
+    private int codigo;
+    
+    private String nombre;
+    
+    private String categorias;
+    
+    private int numeroJugadores;
+    
+    
+
