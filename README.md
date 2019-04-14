@@ -524,7 +524,22 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
         System.out.println("---------------------------------------------------------");
         
     }
+   }
+   
 
-|}
+## Conclusiones
+
+- Como conclusión el uso de herencias es muy útil ya que podemos implementarlas directamente en las clases hijas y nos ahorra tiempo.
+
+
+- Creando los métodos abstractos en las clases padres nos facilita implementándolos en las clases hijas y os ayuda a modificar como queramos en cada una de las clases.
+
+
+- Y finalmente el downcasting y el instance of nos facilita guardar todos los datos al momento de crear la lista.
+
+
+## Recomendaciones
+- Trabajar con enlaces en java y con métodos abstractos es muy eficaz para realizar cualquier tipo de proyecto que tengan relaciones entre sí.
+
 
 
