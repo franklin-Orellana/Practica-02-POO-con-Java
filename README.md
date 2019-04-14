@@ -279,26 +279,18 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
 -	Método abstracto de la clase padre JuegosDigitales
 
 
-    /**
-     * metodo abstracto de la clase padre
-     */
-
-    public abstract void Multijugador();
-    
+     public abstract void Multijugador();
+     
 
 -	Método abstracto de la clase padre JurgosDeAzar
 
 
-    /**
-     * metodo abstracto de la clase padre
-     */
-     
     public abstract void Reglas ();
   
   
-##7. Los métodos abstractos deben ser sobre-escritos (implementados) en cada clase hija.
+## 7. Los métodos abstractos deben ser sobre-escritos (implementados) en cada clase hija.
 
-      ##- Clase Aventura
+      ## - Clase Aventura
       
       
     /**
@@ -342,7 +334,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
         System.out.println("La Partida a terminado "+ this.getNombre());    
     }
             
-      ##- Clase Póker
+      ## - Clase Póker
       
       
     /**
@@ -365,7 +357,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     }
       
       
-      ##- Clase Bingo
+      ## - Clase Bingo
       
     /**
      * metodos abstracto implementadoaa la clase Bingo
