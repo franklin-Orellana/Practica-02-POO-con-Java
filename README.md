@@ -380,6 +380,39 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     }
     
     
+## 8. Todas las clases hijas deben ser clases finales.
+   
+   -  public final class Bingo extends JuegosDeAzar implements Interfaz {
+
+   -  public final class Aventura extends JuegosDigital implements Interfaz {
+   
+   -  public final class Deporte extends JuegosDigital implements Interfaz {
+   
+   -  public final class Poker extends JuegosDeAzar implements Interfaz{
+   
+## 9.	Crear una interface, con al menos dos métodos abstractos. Estos métodos deben ser implementados en cada clase hija.
+   
+   public interface Interfaz {
+    
+    /**
+     * Declarar metodos abstractos
+     */
+
+    public abstract void partidaInicio();
+    public abstract void partidaTerminada();
+
+    }
+
+
+@Override
+    public void partidaInicio() {
+        System.out.println("Partida a dado inicio " +this.getNombre());    
+    }
+
+    @Override
+    public void partidaTerminada() {
+        System.out.println("La Partida a terminado " +this.getNombre());    
+    }
 
 
 
