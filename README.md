@@ -56,4 +56,20 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     private int numeroJugadores;
     
     
-
+// metodos clase abuelo
+    public void partidaInicio(){
+        System.out.println(""+this.nombre);
+    }
+    
+    public void partidaTerminada(){
+        System.out.println(""+this.nombre);
+    }
+    
+    /**
+     * generacion de toString de la clase Juegos 
+     */
+    
+    @Override
+    public String toString() {
+        return "n\t\tJuego" + "\nCodigo: " + codigo + "\nNombre: " + nombre + "\nCategorias: " + categorias + "\nNumero De Jugadores: " + numeroJugadores + '"';
+    }
