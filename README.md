@@ -53,7 +53,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     private int numeroJugadores;
     
   /**  
-   *metodos clase abuelo
+   * metodos clase abuelo
    */
     
     public void partidaInicio(){
@@ -269,5 +269,6 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     public String toString() {
         return super.toString() + "\n\t\tPoker" + "\nTipo de Ficha: " + tipoFicha + "\nNumero de Puesto: " + numeroPuesto + "\nApuesta: " + apuesta + "\nMostrar Juegos: " + mostrarJuegos + '"';
     }
-
+    
+6.	Cada clase padre debe tener por lo menos un método abstracto cada una.
 
