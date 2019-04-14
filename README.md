@@ -117,7 +117,7 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
     private String plataforma;
     private String graficos;
 
-/**
+    /**
      * metodos de la clase padre 
      */
     
@@ -270,5 +270,118 @@ clases en este caso de la clase abuelo a las clases padres y de las clases padre
         return super.toString() + "\n\t\tPoker" + "\nTipo de Ficha: " + tipoFicha + "\nNumero de Puesto: " + numeroPuesto + "\nApuesta: " + apuesta + "\nMostrar Juegos: " + mostrarJuegos + '"';
     }
     
-6.	Cada clase padre debe tener por lo menos un método abstracto cada una.
+    
+## 6.	Cada clase padre debe tener por lo menos un método abstracto cada una.
+
+-	Método abstracto de la clase padre JuegosDigitales
+
+     /**
+     * metodo abstracto de la clase padre
+     */
+
+    public abstract void Multijugador();
+
+-	Método abstracto de la clase padre JurgosDeAzar
+
+     /**
+     * metodo abstracto de la clase padre
+     */
+
+    public abstract void Reglas ();
+  
+  
+##7. Los métodos abstractos deben ser sobre-escritos (implementados) en cada clase hija.
+
+      ##- Clase Aventura
+      
+      
+      /**
+     * metodos abstracto implementadoaa la clase Aventura
+     */
+    
+    @Override
+    public void Multijugador() {
+        System.out.println("El juego es multijugador y pueden jugar hasta "+this.getNumeroJugadores()+" jugadores");    
+    }
+
+    @Override
+    public void partidaInicio() {
+        System.out.println("Partida a dado inicio " +this.getNombre());    
+    }
+
+    @Override
+    public void partidaTerminada() {
+        System.out.println("La Partida a terminado " +this.getNombre());    
+    }
+      
+      ##- Clase Deporte
+      
+      
+      /**
+     * metodos abstracto implementadoaa la clase Deporte
+     */
+    
+    @Override
+    public void Multijugador() {
+        System.out.println("El juego es multijugador y pueden jugar hasta "+this.getNumeroJugadores()+" jugadores");    
+    }
+
+    @Override
+    public void partidaInicio() {
+        System.out.println("La Partida a dado inicio " +this.getNombre());    
+    }
+
+    @Override
+    public void partidaTerminada() {
+        System.out.println("La Partida a terminado "+ this.getNombre());    
+    }
+            
+      ##- Clase Póker
+      
+      
+      /**
+     * metodos abstracto implementadoaa la clase Poker
+     */
+    
+    @Override
+    public void Reglas() {
+        System.out.println("En el "+this.getNombre()+" no es permitido mostrar las cartas a otro oponente");
+    }
+
+    @Override
+    public void partidaInicio() {
+        System.out.println("Partida a dado inicio "+this.getNombre());    
+    }
+
+    @Override
+    public void partidaTerminada() {
+        System.out.println("La Partida a terminado "+this.getNombre());
+    }
+      
+      
+      ##- Clase Bingo
+      
+      /**
+     * metodos abstracto implementadoaa la clase Bingo
+     */
+    
+    
+    @Override
+    public void Reglas() {
+        System.out.println("En el "+this.getNombre()+" no puede haber mas de dos fichas en el mismo casillero ");
+    }
+
+    @Override
+    public void partidaInicio() {
+        System.out.println("Partida a dado inicio "+this.getNombre());
+    }
+
+    @Override
+    public void partidaTerminada() {
+        System.out.println("La Partida a terminado "+this.getNombre());
+    }
+    
+    
+
+
 
